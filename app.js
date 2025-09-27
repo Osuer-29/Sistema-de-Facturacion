@@ -16,6 +16,10 @@ function saveState() {
   }
 }
 
+// Mostrar inicio al cargar la página
+loadModule("inicio");
+
+
 // Contenedor principal
 const content = document.getElementById("content");
 
