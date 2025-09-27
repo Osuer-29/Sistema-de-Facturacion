@@ -16,8 +16,7 @@ function saveState() {
   }
 }
 
-// Mostrar inicio al cargar la página
-loadModule("inicio");
+
 
 
 // Contenedor principal
@@ -47,3 +46,6 @@ document.addEventListener("click", (e) => {
     loadModule(module);
   }
 });
+
+// Mostrar inicio al cargar la página
+loadModule("inicio");
